@@ -19,68 +19,68 @@
 # {anchor} controls the visual position of the textbox in-game
 
 # Helper Postcards
-	POSTCARD_LEVELGONE= 		{big}Thank you ((player))!{/big}{n}But our {#ff1144}((sid)){#} is on another mountain.
-	POSTCARD_LEVELLOADFAILED= 	{big}Sorry!{/big}{n}But {#ff1144}((sid)){#} has failed loading.{n}Please send your {#44adf7}log.txt{#}{n}to the map builder.
-	POSTCARD_LEVELNOSPAWN= 		{big}Oops!{/big}{n}Someone misplaced your {#44adf7}starting point!{#}{n}Please check if your map{n}contains a {#44adf7}Player{#} entity.
+	POSTCARD_LEVELGONE= 		{big}Merci ((player))!{/big}{n}mais {#ff1144}((sid)){#} est dans une autre montagne.
+	POSTCARD_LEVELLOADFAILED= 	{big}Désolé!{/big}{n}Car {#ff1144}((sid)){#} n'a pas pu être chargé.{n}envoyer votre {#44adf7}log.txt{#}{n}dans le créateur de maps.
+	POSTCARD_LEVELNOSPAWN= 		{big}Oops!{/big}{n}Quelqu'un à mal déplacé votre {#44adf7}point de départ!{#}{n}Vérifiez si votre map{n}contient un {#44adf7}joueur.
 
 # Main Menu
 	MENU_TITLETOUCH= 		TOUCH
-	MENU_MAPLIST= 			Map List
-	MENU_MODOPTIONS= 		Mod Options
-	MENU_PAUSE_MODOPTIONS= 	Mod Options
+	MENU_MAPLIST= 			Liste de maps
+	MENU_MODOPTIONS= 		Options des mods
+	MENU_PAUSE_MODOPTIONS= 	Options du mod
 
 # Mod Options
 	MODOPTIONS_TITLE= 										EVEREST
 
 # Core Module Options
-	MODOPTIONS_COREMODULE_UPDATE= 							Update to ((version))
-	MODOPTIONS_COREMODULE_VERSIONLIST= 						~Version List~
+	MODOPTIONS_COREMODULE_UPDATE= 							mise à jour ((version))
+	MODOPTIONS_COREMODULE_VERSIONLIST= 						~Liste des versions~
 	MODOPTIONS_COREMODULE_TITLE= 							Everest Core
-	MODOPTIONS_COREMODULE_LAUNCHINDEBUGMODE= 				Launch as Debug Build
-	MODOPTIONS_COREMODULE_LAUNCHWITHFMODLIVEUPDATE= 		Launch w/ FMOD Live Update
-	MODOPTIONS_COREMODULE_INPUTGUI= 						Input Prompts
+	MODOPTIONS_COREMODULE_LAUNCHINDEBUGMODE= 				relancer en mode debug
+	MODOPTIONS_COREMODULE_LAUNCHWITHFMODLIVEUPDATE= 		Relancer w/ FMOD avec des mise à jour directes
+	MODOPTIONS_COREMODULE_INPUTGUI= 						image d'inputs
 	MODOPTIONS_COREMODULE_INPUTGUI_= 						AUTO
-	MODOPTIONS_COREMODULE_INPUTGUI_KEYBOARD= 				KEYBOARD
+	MODOPTIONS_COREMODULE_INPUTGUI_KEYBOARD= 				CLAVIER
 	MODOPTIONS_COREMODULE_INPUTGUI_NS= 						SWITCH
 	MODOPTIONS_COREMODULE_INPUTGUI_NS_LEFTJOYCON= 			SWITCH L
 	MODOPTIONS_COREMODULE_INPUTGUI_NS_RIGHTJOYCON= 			SWITCH R
 	MODOPTIONS_COREMODULE_INPUTGUI_PS4= 					PS4
 	MODOPTIONS_COREMODULE_INPUTGUI_XB1= 					XBONE
 	MODOPTIONS_COREMODULE_INPUTGUI_TOUCH= 					TOUCH
-	MODOPTIONS_COREMODULE_LAZYLOADING=						Lazy Loading
-	MODOPTIONS_COREMODULE_LQATLAS=							Prefer LQ Atlases
-	MODOPTIONS_COREMODULE_NONTHREADEDGL=					Non-Threaded GL
+	MODOPTIONS_COREMODULE_LAZYLOADING=						Démarage lent
+	MODOPTIONS_COREMODULE_LQATLAS=							Préférer LQ Atlases
+	MODOPTIONS_COREMODULE_NONTHREADEDGL=					GL non-traité
 	
-	MODOPTIONS_COREMODULE_RECRAWL= 							~Reload Assets~
+	MODOPTIONS_COREMODULE_RECRAWL= 							~recharger aspects~
 
-	MODOPTIONS_COREMODULE_SOUNDTEST= 						Sound Test
+	MODOPTIONS_COREMODULE_SOUNDTEST= 						test sons
 
 # Sound Test
-	SOUNDTEST_TITLE=	SOUND TEST
+	SOUNDTEST_TITLE=	TEST SONS
 
 # Maplist
-	MAPLIST_TITLE= 			MAP LIST
-	MAPLIST_FILTERS= 		Filters
-	MAPLIST_TYPE= 			From
-	MAPLIST_TYPE_ALLMODS= 	All Mods
-	MAPLIST_SIDE= 			Side
-	MAPLIST_RELOAD= 		Reload
+	MAPLIST_TITLE= 			Liste de maps
+	MAPLIST_FILTERS= 		Filtrer
+	MAPLIST_TYPE= 			DE
+	MAPLIST_TYPE_ALLMODS= 	Tous les mods
+	MAPLIST_SIDE= 			Face
+	MAPLIST_RELOAD= 		Recharger
 	MAPLIST_LIST= 			Maps
-	MAPLIST_UNCATEGORIZED= 	Uncategorized
+	MAPLIST_UNCATEGORIZED= 	non-catégorisé
 
 	LEVELSET_CELESTE= 		Celeste
-	LEVELSET_= 				Uncategorized
+	LEVELSET_= 				Non-catégorisé
 
 # Updater
-	UPDATER_TITLE= 					UPDATER
-	UPDATER_VERSIONS_TITLE= 		VERSION LIST
-	UPDATER_VERSIONS_CURRENT= 		Installed: ((version))
-	UPDATER_VERSIONS_REQUESTING= 	Refreshing...
+	UPDATER_TITLE= 					mise à jour
+	UPDATER_VERSIONS_TITLE= 		Liste des version
+	UPDATER_VERSIONS_CURRENT= 		Installer: ((version))
+	UPDATER_VERSIONS_REQUESTING= 	Rafraichir...
 	
-	UPDATER_VERSIONS_ERR_DOWNLOAD= 	Failed downloading version list.
-	UPDATER_VERSIONS_ERR_FORMAT= 	Unknown format.
+	UPDATER_VERSIONS_ERR_DOWNLOAD= 	Erreur de chargement de la liste des version.
+	UPDATER_VERSIONS_ERR_FORMAT= 	Format inconnu.
 	
-	UPDATER_SRC_TRAVIS= 			Automatic Builds
+	UPDATER_SRC_TRAVIS= 			Construction automatique
 
 # Misc
-	UI_GIVEUP_HINT=			Your progress is saved, but you'll need to restart at the last :checkpoint:
+	UI_GIVEUP_HINT=			Votre progression est sauvegarder, mais vous devez recommencer depuis le dernier :checkpoint:
